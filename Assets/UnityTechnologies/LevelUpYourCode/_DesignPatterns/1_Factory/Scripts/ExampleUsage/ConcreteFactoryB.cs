@@ -19,7 +19,7 @@ namespace DesignPatterns.Factory
 
             // Each product contains its own logic
             newProduct.Initialize();
-
+   
             // Add any unique behavior to this factory
             instance.name = newProduct.ProductName;
             Debug.Log(GetLog(newProduct));
